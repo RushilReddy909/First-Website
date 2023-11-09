@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: rgb(139, 6, 139);
+    font-size: 3rem;
+}
+
+.img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./temp/image1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    z-index: -1;
+    transition: background-image 2s ease-in-out;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+#intro {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(89, 7, 165);
+}
+
+img {
+    height: 50vh;
+}
+
+.desc {
+    font-size: 1.5rem;
+    color: rgb(3, 225, 177);
+}
+
+.sizing {
+    width: 32rem;
+    height: 18rem;
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.head {
+    font-size: xx-large;
+    background-image: url('bg.avif');
+    background-size: cover;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.spacing {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
